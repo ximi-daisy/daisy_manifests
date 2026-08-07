@@ -1,0 +1,14 @@
+device/xiaomi/daisy/lineage.dependencies
+```
+[
+  {
+    "repository": "android_device_xiaomi_mi89xx-mainline",
+    "target_path": "device/xiaomi/mi89xx-mainline"
+  }
+]
+```
+vendor/lineage/build/tools/roomservice.py daisy true device/xiaomi/daisy
+
+https://review.lineageos.org/c/LineageOS/android_vendor_lineage/+/492595
+
+https://github.com/LineageOS/android_build/commit/5a841be38fec92de9a8a408cf5812ca748ccc02e
